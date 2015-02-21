@@ -1,12 +1,12 @@
-###### DATA DICTIONARY — run_analysis.R 
+# DATA DICTIONARY — run_analysis.R 
 
-subject
-	Subject ID number
+- subject
+	- Subject ID number
 		1..30 .Unique identifier assigned to each of 30 participants  
  
-activity 
-	Activity name. 
-	Identifies one of six activities measured for each participant
+- activity 
+	- Activity name. 
+	- Identifies one of six activities measured for each participant
 		1. "WALKING"
 		2. ”WALKING_UPSTAIRS"
 		3. ”WALKING_DOWNSTAIRS"
@@ -14,29 +14,29 @@ activity
 		5. "STANDING"
 		6. "LAYING" 
  
-tBodyAcc-mean()-X  
-	mean time measurement of body acceleration on the X axis
-	numeric value (seconds)
+- tBodyAcc-mean()-X  
+	- mean time measurement of body acceleration on the X axis
+	- numeric value (seconds)
  
-tBodyAcc-mean()-Y 
-	mean time measurement of body acceleration on the Y axis
-	numeric value (seconds)
+- tBodyAcc-mean()-Y 
+	- mean time measurement of body acceleration on the Y axis
+	- numeric value (seconds)
  
-tBodyAcc-mean()-Z  
- 	mean time measurement of body acceleration on the Z axis
-	numeric value (seconds)
+- tBodyAcc-mean()-Z  
+ 	- mean time measurement of body acceleration on the Z axis
+	- numeric value (seconds)
 
-tBodyAcc-std()-X 
-	standard deviation time measurement of body acceleration on the X axis
-	numeric value (seconds)
+- tBodyAcc-std()-X 
+	- standard deviation time measurement of body acceleration on the X axis
+	- numeric value (seconds)
 
-tBodyAcc-std()-Y 
-	standard deviation time measurement of body acceleration on the Y axis
-	numeric value (seconds)
+- tBodyAcc-std()-Y 
+	- standard deviation time measurement of body acceleration on the Y axis
+	- numeric value (seconds)
  
-tBodyAcc-std()-Z 
-	standard deviation time measurement of body acceleration on the Z axis
-	numeric value (seconds)
+- tBodyAcc-std()-Z 
+	- standard deviation time measurement of body acceleration on the Z axis
+	- numeric value (seconds)
 
 tGravityAcc-mean()-X 
  	mean time measurement of gravity acceleration on the X axis
